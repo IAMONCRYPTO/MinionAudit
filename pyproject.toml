@@ -6,8 +6,15 @@ build-backend = "setuptools.build_meta"
 name = "minion-audit"
 version = "0.1.0"
 description = "Local-first Solidity and Python audit workflow powered by OpenMinion"
+readme = "README.md"
+keywords = ["security", "solidity", "openminion", "cortensor", "nvidia-nim"]
 requires-python = ">=3.11"
 dependencies = ["openminion==0.1.22", "python-dotenv==1.2.4"]
+
+[project.urls]
+Repository = "https://github.com/IAMONCRYPTO/MinionAudit"
+Documentation = "https://github.com/IAMONCRYPTO/MinionAudit#readme"
+Issues = "https://github.com/IAMONCRYPTO/MinionAudit/issues"
 
 [project.scripts]
 minion-audit = "minion_audit.cli:main"
