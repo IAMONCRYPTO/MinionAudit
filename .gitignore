@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.minion_audit/
+.openminion/
+*.db
+*.db-*
+*.sqlite*
+reports/
+vendor/
+*.egg-info/
